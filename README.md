@@ -36,6 +36,13 @@ The assistant replies with:
 
 ---
 
+## 🎨 Diagram
+
+![Diagram](https://github.com/patla001/multimodal-rag-chatbot/blob/main/Multimodal-Diagram.png)
+
+---
+
+
 ## 🧪 Run Locally
 
 ### 1. Clone this repo
