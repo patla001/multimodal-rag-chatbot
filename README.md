@@ -40,7 +40,8 @@ The assistant replies with:
 
 ### 1. Clone this repo
 
-#```bash
-#git clone https://github.com/your-username/symptom-checker.git
-#cd symptom-checker
+```bash
+[git clone https://github.com/patla001/multimodal-rag-chatbot.git](https://github.com/patla001/multimodal-rag-chatbot.git)
+cd multimodal-rag-chatbot
 
+```
