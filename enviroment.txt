@@ -1,0 +1,9 @@
+# OpenAI API Key (for GPT-4V)
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# MongoDB connection string
+MONGODB_URI=mongodb://localhost:27017
+
+# Optional: OpenAI organization ID (if needed)
+# OPENAI_ORG_ID=org-xxxxxxxxxxxxxxxxxxxx
+

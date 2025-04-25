@@ -1,0 +1,24 @@
+import chainlit as cl
+from PIL import Image
+from handlers import generate_diagnosis
+
+@cl.on_message
+async def handle_message(message: cl.Message):
+    symptoms = message.content
+
+    # Get the first image file uploaded
+    image_file = next((f for f in message.files if f.type.startswith("image")), None)
+
+    if not image_file:
+        await cl.Message(content="Please upload an image of the symptom.").send()
+        return
+
+    # Load image with PIL
+    image = Image.open(image_file.path)
+
+    # Generate diagnosis
+    result = generate_diagnosis(image, symptoms)
+
+    # Send response
+    await cl.Message(content=result).send()
+

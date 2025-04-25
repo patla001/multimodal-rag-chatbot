@@ -1,0 +1,21 @@
+chainlit<=2.2
+pydantic  # ✅ Compatible with Chainlit 2.5.5
+openai>=1.10.0
+pillow>=10.0.0
+pymongo>=4.5.0
+#python-dotenv>=1.0.0
+
+
+# Core app and LLM interface
+#chainlit>=1.0.200
+#openai>=1.10.0
+
+# Image processing
+#pillow>=10.0.0
+
+# MongoDB client
+#pymongo
+
+# Optional: environment variable loading
+#python-dotenv>=1.0.0
+
