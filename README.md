@@ -50,3 +50,19 @@ The assistant replies with:
 ```
 git clone https://github.com/patla001/multimodal-rag-chatbot.git
 ```
+### 2. Install the requirements
+
+```
+python -m pip install -r requirements.txt
+```
+
+### 3. Add your ChatGPT under .env or enviroment.txt
+
+```
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+### 4. Run Chainlit
+```
+python -m chainlit run app.py
+```
