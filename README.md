@@ -40,8 +40,8 @@ The assistant replies with:
 
 ### 1. Clone this repo
 
-```bash
-[git clone https://github.com/patla001/multimodal-rag-chatbot.git](https://github.com/patla001/multimodal-rag-chatbot.git)
+```
+git clone https://github.com/patla001/multimodal-rag-chatbot.git
 cd multimodal-rag-chatbot
 
 ```
