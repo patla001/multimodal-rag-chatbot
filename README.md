@@ -17,8 +17,8 @@ A multimodal AI-powered health assistant that helps users analyze visible sympto
 ## 🧱 Tech Stack
 
 - **Frontend**: [Chainlit](https://docs.chainlit.io) (LLM-native UI)
-- **LLM Backend**: OpenAI GPT-4V or LLaVA
-- **Database**: MongoDB (for storing records)
+- **LLM Backend**: [OpenAI GPT-4V](https://openai.com/) or [LLaVA](https://llava-vl.github.io/)
+- **Database**: [MongoDB](https://www.mongodb.com/) (for storing records)
 - **Image Handling**: Pillow + Base64 encoding
 
 ---
@@ -42,6 +42,4 @@ The assistant replies with:
 
 ```
 git clone https://github.com/patla001/multimodal-rag-chatbot.git
-cd multimodal-rag-chatbot
-
 ```
